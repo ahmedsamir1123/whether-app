@@ -1,0 +1,154 @@
+.item img {
+    height: 200px;
+
+    object-fit: cover;
+
+}
+
+
+.site-header {
+    padding: 50px 0;
+}
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.site-header .branding {
+    float: left;
+}
+
+a {
+    color: #009ad8;
+}
+
+.site-header .branding .logo {
+    margin-right: 10px;
+}
+
+.site-header .branding .logo,
+.site-header .branding .logo-type {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+img {
+    border: 0;
+}
+
+.site-header .branding .logo,
+.site-header .branding .logo-type {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+.main-navigation {
+    float: right;
+}
+
+.main-navigation .menu {
+    list-style: none;
+    display: inline-block;
+}
+
+.main-navigation .menu-toggle,
+.main-navigation .menu {
+    vertical-align: middle;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding-left: 0;
+}
+
+.main-navigation .menu .menu-item {
+    float: left;
+    margin-left: 10px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
+.main-navigation .menu {
+    list-style: none;
+    display: inline-block;
+}
+
+.main-navigation .menu .menu-item.current-menu-item a,
+.main-navigation .menu .menu-item:hover a {
+    border-color: #009ad8;
+    color: #009ad8;
+}
+
+.main-navigation .menu .menu-item a {
+    padding: 5px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #009ad8;
+}
+
+a {
+    background: transparent;
+}
+
+
+body {
+    background-color: rgb(30, 32, 43);
+}
+
+.logo-img {
+    width: 80px;
+    height: 40px;
+}
+
+.small-fs {
+    font-size: 10px;
+}
+
+.fs-6 {
+    font-size: 12px;
+}
+
+.app-container {
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+}
+
+.bg-main-color {
+    background-color: rgba(30, 32, 43, 0.905);
+}
+
+.bg-sec-color {
+    background-color: #262936d1;
+}
+
+.fs-big {
+    font-size: 84px;
+    font-weight: bolder;
+}
+
+.footer-icons {
+    width: 20px;
+    height: 20px;
+}
+
+.text-light-blue {
+    color: #009ad8;
+}
